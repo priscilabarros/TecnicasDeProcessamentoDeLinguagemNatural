@@ -68,9 +68,8 @@ EX: complete de possíveis buscas na barra de pesquia do google, chatbots, assis
 * IMDB: plataforma que reune dados de filmes, videos etc. 
 Link: https://www.imdb.com/
 
-* Kaggle - comunidade de Machine learning que possui ferramenta que com várias bases de dados inclusive a 
-base de filmes do imdb só que em PT_BR 
-https://www.kaggle.com/
+* Kaggle - https://www.kaggle.com/ comunidade de Machine learning que possui ferramenta que com várias bases de dados inclusive a 
+base de filmes do imdb só que em PT_BR: https://www.kaggle.com/datasets/luisfredgs/imdb-ptbr/data
 
 * Instalação do Jupyter Notebook:
 
@@ -88,9 +87,18 @@ https://www.kaggle.com/
         ```
     - Também pode ser utilizado o JupyterLite na versão online: https://jupyter.org/try
 
-* Fazer download do kaggle
+* Fazer download do kaggle: https://www.kaggle.com/datasets/luisfredgs/imdb-ptbr/data e depois extrai o conteudo em uma pasta.
 
+* Importação da biblioteca pandas para manejo de dados em python:
+```
+    import pandas as pd
+```
 
+* Leitura da base de dados:
+```
+    resenha = pd.read_csv("Priscila/Alura_Trabalho/FormacaoTecnicaDeProcessamentoDeLN/TecnicasDeProcessamentoDeLinguagemNatural/dados/imdb-reviews-pt-br.csv")
+    resenha.read()
+```
 
 
 
