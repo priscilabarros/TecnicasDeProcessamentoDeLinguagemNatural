@@ -97,7 +97,7 @@ base de filmes do imdb só que em PT_BR: https://www.kaggle.com/datasets/luisfre
 * Leitura da base de dados:
 ```
     resenha = pd.read_csv("Priscila/Alura_Trabalho/FormacaoTecnicaDeProcessamentoDeLN/TecnicasDeProcessamentoDeLinguagemNatural/dados/imdb-reviews-pt-br.csv")
-    resenha.read()
+    resenha.head()
 ```
 
 
